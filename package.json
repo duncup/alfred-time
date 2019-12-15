@@ -1,0 +1,40 @@
+{
+  "name": "alfred-time",
+  "version": "0.0.0",
+  "description": "Time string generator",
+  "license": "MIT",
+  "repository": "duncup/alfred-time",
+  "author": {
+    "name": "duncup",
+    "email": "dlmsoft.wolf@gmail.com",
+    "url": "github.com/duncup"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfred-notifier": "^0.2.3",
+    "alfy": "^0.9.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^2.3.0",
+    "xo": "^0.24.0"
+  }
+}
