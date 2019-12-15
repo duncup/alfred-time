@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>C518C856-C328-486A-8973-5DBB1C1C6718</string>
+				<string>1ECABA7F-F361-4D82-A358-74819D5FC12C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -48,6 +48,23 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>1ECABA7F-F361-4D82-A358-74819D5FC12C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -57,7 +74,7 @@
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
@@ -93,25 +110,6 @@
 			<string>0D7878C8-44D8-4777-BD59-F00C93791423</string>
 			<key>version</key>
 			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>C518C856-C328-486A-8973-5DBB1C1C6718</string>
-			<key>version</key>
-			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -191,6 +189,13 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+		<key>1ECABA7F-F361-4D82-A358-74819D5FC12C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>150</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
 		<key>700F088B-2315-4DB8-85A9-DB1D0A9A57BC</key>
 		<dict>
 			<key>xpos</key>
@@ -204,13 +209,6 @@
 			<integer>10</integer>
 			<key>ypos</key>
 			<integer>145</integer>
-		</dict>
-		<key>C518C856-C328-486A-8973-5DBB1C1C6718</key>
-		<dict>
-			<key>xpos</key>
-			<integer>150</integer>
-			<key>ypos</key>
-			<integer>10</integer>
 		</dict>
 	</dict>
 	<key>webaddress</key>
