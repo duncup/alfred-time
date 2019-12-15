@@ -1,6 +1,6 @@
 {
   "name": "alfred-time",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Time string generator",
   "license": "MIT",
   "repository": "duncup/alfred-time",
